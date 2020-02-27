@@ -1,0 +1,66 @@
+/ * Bidang input lebar penuh * /
+ masukan [jenis = teks], masukan [jenis = kata sandi] {
+ lebar: 100%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ display: inline-block;
+ perbatasan: tidak ada;
+ latar belakang: # f1f1f1;
+ }
+
+ input [type = teks]: fokus, input [type = kata sandi]: fokus {
+ warna latar: #ddd;
+ garis besar: tidak ada;
+ }
+
+ jam {
+ perbatasan: 1px solid # f1f1f1;
+ margin-bottom: 25px;
+ }
+
+ / * Tetapkan gaya untuk semua tombol * /
+ tombol {
+ warna latar: # 4CAF50;
+ warna putih;
+ padding: 14px 20px;
+ margin: 8px 0;
+ perbatasan: tidak ada;
+ kursor: pointer;
+ lebar: 100%;
+ opacity: 0,9;
+ }
+
+ tombol: arahkan kursor {
+ opacity: 1;
+ }
+
+ / * Gaya ekstra untuk tombol batal * /
+ .cancelbtn {
+ padding: 14px 20px;
+ warna latar: # f44336;
+ }
+
+ / * Float membatalkan dan mendaftar tombol dan menambahkan lebar yang sama * /
+ .cancelbtn, .signupbtn {
+ mengapung: kiri;
+ lebar: 50%;
+ }
+
+ / * Tambahkan padding ke elemen kontainer * /
+ .container {
+ bantalan: 16px;
+ }
+
+ / * Hapus mengapung * /
+ .clearfix :: after {
+ kandungan: "";
+ jelas: keduanya;
+ display: table;
+ }
+
+ / * Ubah gaya untuk tombol batal dan tombol pendaftaran di layar ekstra kecil * /
+ Layar @ media dan (max-width: 300px) {
+ .cancelbtn, .signupbtn {
+ lebar: 100%;
+ }
+ }
